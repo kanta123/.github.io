@@ -1,0 +1,204 @@
+.title {
+  color: #02ccba;
+}
+
+*{
+  margin: 0px;
+}
+
+body{
+ font-family: "Hiragino Kaku Gothic ProN";
+ margin: 0px;
+ padding: 0px;
+}
+
+li{
+  list-style:none;
+}
+
+header{
+  width: 100%;
+  height: 90px;
+  background-color:rgba(34, 49, 52, 0.8);
+  position:fixed;
+  top:0;
+  z-index: 10;
+
+}
+
+.logo{
+  float: left;
+}
+
+
+.cool{
+  font-family: 'Rock Salt', cursive;
+  font-size:70px;
+  padding-top:300px;
+  letter-spacing: 10px;
+  color:rgba(255, 255, 0, 1);
+}
+
+.title{
+  font-family: 'Rock Salt', cursive;
+  font-size:70px;
+  letter-spacing: 5px;
+  color:rgba(255, 255, 0, 1);
+}
+
+
+
+.contents h3{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-size:30px;
+  color:white;
+  opacity:0.8;
+}
+
+.main{
+  width:100%;
+  height: 1000px;
+  background-image: url(img/Background.jpg);
+  background-size: cover;
+  text-align: center;
+  margin-bottom:200px;
+  padding:0px;
+}
+
+
+
+.official{
+  background-color:rgba(0, 0, 0, 0.8);
+}
+
+.twi{
+  background-color: rgba(85, 172, 238,0.8);
+  margin-left:50px;
+}
+
+.main2{
+  padding-left:100px;
+  padding-right:100px;
+  margin-bottom: 200px;
+  height: 800px;
+  background-color: #f7f7f7;
+}
+
+.lessons h1{
+  font-weight:normal;
+  border-bottom: 2px solid black;
+  text-align:center;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+.lesson{
+  float:left;
+  width: 33%;
+  text-align: center;
+}
+
+.lesson p{
+  text-align:center;
+}
+
+.name{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.lesson-txt{
+  font-size: 15px;
+  display:inline-block;
+  width: 80%;
+  margin-top: 20px;
+  opacity:0.8;
+}
+
+.main3{
+  padding-left:100px;
+  padding-right:100px;
+  height: 2300px;
+  background-color: #f7f7f7;
+}
+
+.chanpion{
+  float: left;
+  width:50%;
+  text-align: center;
+}
+
+.kayn,.evelynn,.graves,.xin,.ww,.swain,.malz,.elice{
+  display: inline-block;
+  margin :auto;
+
+}
+
+
+.chanpion h3{
+  font-weight:normal;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align:center;
+  margin-bottom:30px;
+  opacity:0.7;
+}
+
+
+.main4{
+  padding-left:100px;
+  padding-right:100px;
+  height: 600px;
+  background-image:url(img/section.jpg);
+}
+
+.message{
+  color:white;
+  font-weight: normal;
+  padding-bottom: 50px;
+  opacity:0.9;
+}
+
+.message h2{
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.message h3{
+  font-size: 25px;
+}
+
+.btn-contents{
+  text-align:center;
+  padding-top: 130px;
+}
+
+footer{
+  height:100px;
+  background-color: rgb(34, 49, 52);
+  padding-left:100px;
+  padding-right:100px;
+  padding-top:10px;
+}
+
+.footer-img{
+  float: left;
+}
+
+.footer-txt{
+  color:white;
+}
+
+.footer-info {
+  float: right;
+  color:white;
+}
+
+.footer-info{
+  font-size:15px;
+}
+
+.footer-info li{
+  padding-bottom: 10px;
+}
